@@ -1,0 +1,34 @@
+.nav-custom-bg-color {
+    background-color: #111715;
+    
+}
+body {
+    background-color: #1d2926;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+.introduction {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+.about-me {
+    margin-left: 8%;
+    margin-right: 8%
+}
+
+.about{
+    background-color: #111715;
+    margin: 0;
+    padding: 20px;
+}
+ul {
+    float: left;
+}
+.column {
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.space-below {
+    margin-bottom: 10%;
+}
