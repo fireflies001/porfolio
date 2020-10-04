@@ -1,0 +1,8 @@
+{
+    "trigger": [{
+        "miyeon": "miyeon"
+    }],
+    "response": [{
+        "hi": "hi"
+    }]
+}

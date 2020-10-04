@@ -11,6 +11,8 @@ body {
     text-align: center;
     margin-top: 15%;
     margin-bottom: 20%;
+    background-image: url("img/wp4932296");
+
 }
 .about-me {
     margin-left: 8%;
@@ -31,4 +33,8 @@ ul {
 }
 .space-below {
     margin-bottom: 10%;
+}
+.bg-none {
+    background-color: transparent;
+    text-align: center;
 }

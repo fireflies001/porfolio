@@ -1,0 +1,28 @@
+#main {
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+}
+#user {
+    width: 449px;
+    text-align: right;
+}
+#bot {
+    width: 390px !important;
+    
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+
+#main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#user-response {
+    margin-right: 4%;
+}
+#bot-response {
+    margin-right: 50%;
+    
+}
