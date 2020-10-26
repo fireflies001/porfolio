@@ -1,105 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    <title>Jo Vince</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark nav-custom-bg-color">
-        <a class="navbar-brand ml-5" href="#">Jo Vince</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Software <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="pages/neverlandChatbot.html">Neverland Chat bot <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-         
-        </div>
-      </nav>
-    <div class="jumbotron bg-none mx-auto">
-      <h1 class="display-4">Website & Game Developer</h1>
-      <p class="lead">Self-learning software development through research and perseverance</p>
-    </div>
-    
-    <div class="container-fluid about mb-5">
-        <div class="about-me">
-            <h3>ABOUT ME</h3>
-            <p>I'm a graduate of Information and communication Technology in University of San Carlos. 
-                I was never the best at school. I'm just a curious guy who want to make super cool stuff.
-            </p>
-            <br>
-        </div>
-        <div class="column space-below clearfix float-md-left">
-                <h4>Web development</h4>
-            <ul>
-                <li>Titay's Order Management System</li>
-                <li>Covid 19 Tracker</li>
-            </ul>
-        </div>
-        <div class="clearfix float-md-left mr-5">
-            <h4>Game development</h4>
-            <ul>
-                <li>Slime Game</li>
-                <li>RPG</li>
-            </ul>
-        </div>
-        <div class="clearfix ml-5">
-            <h4>Software development</h4>
-            <ul>
-                <li>Facial Detection using Python</li>
-            </ul>
-        </div>
-    </div>
-    <br>
-    <div class="container-fluid  mb-5 ">
-        <div class="about-me ">
-            <h3>Future Project/s</h3>
-            <!-- <p>
-                I also translate Japanese to english language and vlive translation.
-            </p> -->
-            <br>
-        </div>
-        <div class="column clearfix">
-        <ul>
-            <li>Neverland (web browser RPG game)</li>
-           
-        </ul>
-        </div>
-        <!-- <div class="about-me space-below">
-            <p>If you're interested you can check my CV</p>
-        </div> -->
-        
-    </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jo Vince</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light text-white fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Jo Vince</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">GAIA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto text-white my-0 text-uppercase">Jo Vince</h1>
+                    <h2 class="text-white mx-auto mt-2 mb-5">Self-learning software development through research and perseverance</h2>
+                    <a class="btn  js-scroll-trigger" href="#about">Read More</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <h2 class="text-white mb-4 mt-0 text-uppercase">About me</h2>
+                        <p class="text-white mb-4">
+                            I'm a graduate of Information and communication Technology in University of San Carlos. I was never the best at school. I'm just a curious guy who want to make super cool stuff.
+                            I spend a lot of my time learning and building web applications and games.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 class="text-white mb-4 text-uppercase">Software Development</h3>
+                                <ul class="text-white">
+                                    <li>Python Face Detection</li>
+                                    <li>Covid19 Tracker</li>
+                                    <li>Titay's Order Management System</li>
+                                    <li>Gaia- (G)i-dle artificial intelligence application(chatbot)</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="text-white mb-4 text-uppercase">Web Design Templates</h3>
+                                <ul class="text-white">
+                                    <li>Login Template</li>
+                                    <li>RF online website Template</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container">
+                <!-- Featured Project Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/loginProject.png" alt="" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Login Template</h4>
+                            <p class="text-black-50 mb-0">template for login, you can use it for free.</p>
 
-    <nav class="navbar navbar-inverse navbar-expand-lg navbar-dark nav-custom-bg-color">
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav navbar-right mr-auto ">
-            <li class="nav-item active">
-              <a class="nav-link mr-5 ml-5" href="#">Software <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right mr-5">
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-</body>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text-right text-center text-lg-left">
+                            <h4>Game Template </h4>
+                            <p class="text-black-50 mb-0">Here's a game template for your game.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/gameLandingPage.png" alt="" /></div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/gaia.png" alt="" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>GAIA</h4>
+                            <p class="text-black-50 mb-0">Chatbot who provide information about (G)I-DLE, I'm still in progress on making her. But feel free to say hi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Jo Vince 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
