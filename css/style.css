@@ -38,3 +38,24 @@ ul {
     background-color: transparent;
     text-align: center;
 }
+
+a.links:link
+{
+    color:#FFFFFF;
+}
+
+a.links:visited
+{
+    color:#FFFFFF;
+}
+
+a.links:hover 
+{
+    color:#FFFFFF;
+}
+
+.project-container {
+    padding-top: 10rem;
+    min-height: 37rem;
+    padding-bottom: 10rem;
+}
